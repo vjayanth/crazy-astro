@@ -7,14 +7,8 @@ import {RegisterComponent} from '../register/register.component';
 
 const appRoutes:Routes=[
   {
-    path:'app',
-    children:[
-      {
-        path:'dashboard',
-        component:DashboardComponent
-          
-      }
-    ]
+    path:'dashboard',
+    component:DashboardComponent
   },{
     path:'login',
     component:LoginComponent
